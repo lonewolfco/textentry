@@ -16,6 +16,10 @@ body {
     sans-serif;
 }
 
+.CodeMirror {
+  background-color: var(--monoaki);
+}
+
 h1 {
   font-size: 22px;
   font-family: 'M PLUS 1 Code', sans-serif;
