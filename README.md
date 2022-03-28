@@ -1,16 +1,29 @@
-# Unit 19 PWA Homework: Text Editor
+# TextEntry: Just Another Text Editor
 
-## Your Task
+[![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)](https://opensource.org/licenses/MIT)
 
-As you have progressed through this course, you have put together a number of impressive projects that you can show off to potential employers. This project is no exception; in fact, it features some of the most impressive expressions of the concepts you have learned so far.
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://textentry.herokuapp.com/) 
 
-Your task is to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
+## Table of Contents
+- [Description](#description)
+- [User Story](#userstory)
+- [Acceptance Criteria](#ac)
+- [Mock-up](#mockup)
+- [How to Use](#howtouse)
+- [Languages Used](#languages)
+- [License](#license)
+
+---
+
+## [Description](#description)
+
+A text editor that is a single-page PWA and runs in the browser. Features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
 
 To build this text editor, you will start with an existing application and implement methods for getting and storing data to an IndexedDB database. You will use a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
 
 You will deploy this full-stack application to Heroku using the [Heroku Deployment Guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide).
 
-## User Story
+## [User Story](#userstory)
 
 ```md
 AS A developer
@@ -18,7 +31,7 @@ I WANT to create notes or code snippets with or without an internet connection
 SO THAT I can reliably retrieve them for later use
 ```
 
-## Acceptance Criteria
+## [Acceptance Criteria](#ac)
 
 ```md
 GIVEN a text editor web application
@@ -48,7 +61,7 @@ WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
 
-## Mock-Up
+## [Mock-up](#mockup)
 
 The following animation demonstrates the application functionality:
 
@@ -65,6 +78,20 @@ The following image shows the application's registered service worker:
 The following image shows the application's IndexedDB storage:
 
 ![Demonstration of the finished Unit 19 Homework with a IndexedDB storage named 'jate' in the browser.](./Assets/03-idb-storage.png)
+
+
+## [How to Use](#howtouse)
+
+Simply paste the following link into insomnia https://api-for-the-gram.herokuapp.com/ and be sure to add in the appropiate path to test a specific route. 
+
+## [Languages Used](#languages)
+- HTML
+- CSS
+- Express.js
+- idb
+- Webpack Plugins
+- IndexedDB API
+- Deployed via Heroku
 
 ## Grading Requirements
 
@@ -139,4 +166,24 @@ You are required to submit the following for review:
 * The URL of the GitHub repository, with a unique name and a README describing the project
 
 - - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 lonewolfco
+
+Copyright (c) 2022 lonewolfco (Lo Selby)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

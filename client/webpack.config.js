@@ -36,7 +36,7 @@ module.exports = () => {
         inject: true,
         name: 'TextEntry',
         short_name: 'textentry',
-        description: 'just another text editor - J.A.T.E',
+        description: 'TextEntry: Just Another Text Editor - J.A.T.E',
         background_color: '#225ca3',
         theme_color: '#225ca3',
         start_url: '/',
