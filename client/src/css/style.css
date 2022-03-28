@@ -16,7 +16,7 @@ body {
     sans-serif;
 }
 
-.CodeMirror {
+.CodeMirror-scroll {
   background-color: var(--monoaki);
 }
 
