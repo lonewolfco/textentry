@@ -1,4 +1,4 @@
-![TextEntry Logo](./client/dist/assets/icons/icon_96x96.png)
+![TextEntry Logo](./Assets/icon_96x96.png)
 # TextEntry: Just Another Text Editor
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)](https://opensource.org/licenses/MIT)
