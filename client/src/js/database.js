@@ -17,7 +17,7 @@ const initdb = async () =>
     },
   });
 
-// ===============PUT DB====================
+// ===============POST DB====================
 // Method that accepts some content and adds it to the database
 export const putDb = async (content) => {
   console.log('Please hold...updating database...');
